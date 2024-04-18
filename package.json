@@ -1,0 +1,40 @@
+{
+  "name": "pomelo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "lint-staged": {
+    "src/**/*.ts?(x)": [
+      "prettier --write",
+      "eslint --fix",
+      "git add"
+    ],
+    "src/**/*.less": [
+      "stylelint --syntax less --fix",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25",
+    "@umijs/fabric": "^4.0.1",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "postcss": "^8.3.5",
+    "prettier": "^3.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.4.5"
+  }
+}
