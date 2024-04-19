@@ -1,13 +1,20 @@
 import React from 'react';
 
 export interface AlertProps {
+  /**
+   * @description       Alert 的类型
+   * @default           'info'
+   */
   kind?: 'info' | 'positive' | 'negative' | 'warning';
+  /**
+   * @description       Alert 的内容
+   */
   children: React.ReactNode;
 }
 
 export type KindMap = Record<Required<AlertProps>['kind'], string>;
 
-const prefixCls = 'happy-alert';
+const prefixCls = 'pomelo-alert';
 
 const kinds: KindMap = {
   info: '#5352ED',
