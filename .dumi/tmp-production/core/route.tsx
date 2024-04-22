@@ -8,12 +8,12 @@ export async function getRoutes() {
   return {
     routes,
     routeComponents: {
-'404': React.lazy(() => import(/* webpackChunkName: "nm__dumi__dist__client__pages__404" */'/Users/liqi/Documents/learnCode/pomelo/node_modules/.pnpm/dumi@2.2.17_thkfpdb6upyov6moc3vdgeaiei/node_modules/dumi/dist/client/pages/404.js')),
+'404': React.lazy(() => import(/* webpackChunkName: "nm__dumi__dist__client__pages__404" */'/Users/liqi/Documents/learnCode/pomelo/node_modules/.pnpm/dumi@2.2.17_youjyqqmx2exi64frho6ncp5ki/node_modules/dumi/dist/client/pages/404.js')),
 'dumi-context-layout': React.lazy(() => import(/* webpackChunkName: "dumi__tmp-production__dumi__theme__ContextWrapper" */'/Users/liqi/Documents/learnCode/pomelo/.dumi/tmp-production/dumi/theme/ContextWrapper')),
-'DocLayout': React.lazy(() => import(/* webpackChunkName: "nm__dumi__theme-default__layouts__DocLayout__index" */'/Users/liqi/Documents/learnCode/pomelo/node_modules/.pnpm/dumi@2.2.17_thkfpdb6upyov6moc3vdgeaiei/node_modules/dumi/theme-default/layouts/DocLayout/index.js')),
+'DocLayout': React.lazy(() => import(/* webpackChunkName: "nm__dumi__theme-default__layouts__DocLayout__index" */'/Users/liqi/Documents/learnCode/pomelo/node_modules/.pnpm/dumi@2.2.17_youjyqqmx2exi64frho6ncp5ki/node_modules/dumi/theme-default/layouts/DocLayout/index.js')),
 'docs/index': React.lazy(() => import(/* webpackChunkName: "docs__index.md" */'/Users/liqi/Documents/learnCode/pomelo/docs/index.md')),
 'components/alert/index': React.lazy(() => import(/* webpackChunkName: "alert__index.md" */'/Users/liqi/Documents/learnCode/pomelo/src/alert/index.md')),
-'demo-render': React.lazy(() => import(/* webpackChunkName: "nm__dumi__dist__client__pages__Demo__index" */'/Users/liqi/Documents/learnCode/pomelo/node_modules/.pnpm/dumi@2.2.17_thkfpdb6upyov6moc3vdgeaiei/node_modules/dumi/dist/client/pages/Demo/index.js')),
+'demo-render': React.lazy(() => import(/* webpackChunkName: "nm__dumi__dist__client__pages__Demo__index" */'/Users/liqi/Documents/learnCode/pomelo/node_modules/.pnpm/dumi@2.2.17_youjyqqmx2exi64frho6ncp5ki/node_modules/dumi/dist/client/pages/Demo/index.js')),
 },
   };
 }

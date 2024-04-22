@@ -3,7 +3,7 @@
 // DO NOT CHANGE IT MANUALLY!
 import React, { useState, useEffect, useRef } from 'react';
 import { useOutlet, history } from 'dumi';
-import { SiteContext } from '/Users/liqi/Documents/learnCode/pomelo/node_modules/.pnpm/dumi@2.2.17_thkfpdb6upyov6moc3vdgeaiei/node_modules/dumi/dist/client/theme-api/context.js';
+import { SiteContext } from '/Users/liqi/Documents/learnCode/pomelo/node_modules/.pnpm/dumi@2.2.17_youjyqqmx2exi64frho6ncp5ki/node_modules/dumi/dist/client/theme-api/context.js';
 import { demos, components } from '../meta';
 import { locales } from '../locales/config';
 import * as entryMemberExports from '/Users/liqi/Documents/learnCode/pomelo/src/index.ts';

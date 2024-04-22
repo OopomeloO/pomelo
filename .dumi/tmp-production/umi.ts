@@ -3,7 +3,7 @@
 // DO NOT CHANGE IT MANUALLY!
 import './core/polyfill';
 import { getPluginManager as getDumiPluginManager } from './core/plugin';
-import { setPluginManager as setDumiPluginManager } from '/Users/liqi/Documents/learnCode/pomelo/node_modules/.pnpm/dumi@2.2.17_thkfpdb6upyov6moc3vdgeaiei/node_modules/dumi/dist/client/theme-api/utils.js';
+import { setPluginManager as setDumiPluginManager } from '/Users/liqi/Documents/learnCode/pomelo/node_modules/.pnpm/dumi@2.2.17_youjyqqmx2exi64frho6ncp5ki/node_modules/dumi/dist/client/theme-api/utils.js';
 import { renderClient } from '/Users/liqi/Documents/learnCode/pomelo/node_modules/.pnpm/@umijs+renderer-react@4.1.9_ef5jwxihqo6n7gxfmzogljlgcm/node_modules/@umijs/renderer-react';
 import { getRoutes } from './core/route';
 import { createPluginManager } from './core/plugin';
