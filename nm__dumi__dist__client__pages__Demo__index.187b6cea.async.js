@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkpomelo=self.webpackChunkpomelo||[]).push([[9],{48566:function(l,n,e){e.r(n),e.d(n,{default:function(){return r}});var o=e(41429),t=e(50959),m=function(){var u=(0,o.UO)(),d=u.id,s=(0,o.WF)(),c=s.demos,f=c[d]||{},a=f.component;return a&&(0,t.createElement)(a)},r=m}}]);
